@@ -1,0 +1,13 @@
+
+/* Apply light blue background to odd rows in tables with class .blue-stripes */
+.blue-stripes tbody tr:nth-of-type(odd) td {
+
+  background-color: #bedbff; /* Light blue color */
+  
+}
+
+/* Set font family for all <h3> elements to 'Poppins' or fallback to sans-serif */
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
